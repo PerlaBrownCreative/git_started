@@ -12,4 +12,21 @@
 // to start version/track control
 //git init
 //creates new project
-//
+// your project should never be inside another project folder in order to avoid inverse tree tracking issues
+
+//stage our files for a commit
+//git add<file>
+
+//use git status to check on file staging
+
+//to commit your files, use a git commit - m "your message here"
+
+//to see all your commit history, use git log
+
+// to create new branch, use git branch <new_branch_name>
+//OR
+//to create new branch and switch to it, use git checkout -b <branch_name>
+
+//to switch between branches, use git checkout <branch_name>
+
+//to delete a branch git branch -D develop
