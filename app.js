@@ -29,4 +29,24 @@
 
 //to switch between branches, use git checkout <branch_name>
 
+<<<<<<< HEAD
 //to delete a branch git branch -D develop
+=======
+//to delete a branch git branch -D <branch_name>
+
+//git reset - to undelete changes
+
+//git revert HEAD 
+
+//to remove and unstagged commit, use git reset <file_name>
+
+//to remove an entire commit, use git reset --hard <commit hash BEFORE the ones you want removed>
+
+// to add remote branch, first check if any exist using git remote -v
+//if none exist, and you've created a repo on Github
+//run git remote add <name_of_remote_stream> <github_repo_url>
+
+//to push to Github
+//git push <name_of_remote_stream> <name of branch>
+//you must sit on the branch that you are pushing up
+>>>>>>> 4683c22cd53feef6c884c36a217a43533673dd89
